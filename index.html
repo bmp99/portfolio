@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Borja Monsálvez</title>
+    <meta name="description" content="Portfolio de Borja Monsálvez Pozo, Ingeniero Mecánico e Industrial con experiencia en industrialización y sector automoción.">
+    
+    <meta property="og:title" content="Portfolio de Borja Monsálvez Pozo">
+    <meta property="og:description" content="Ingeniero Mecánico e Industrial con experiencia en industrialización y automoción.">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- BARRA SUPERIOR CON SELECTOR DE IDIOMA -->
+        <nav class="top-nav">
+            <div class="lang-switch">
+                <button type="button" class="lang-btn" onclick="setLanguage('es')">ES</button>
+                <span class="lang-separator">|</span>
+                <button type="button" class="lang-btn active" onclick="setLanguage('en')">EN</button>
+            </div>
+        </nav>
+
+        <!-- HERO SECTION -->
+        <header class="hero">
+            <div class="hero-container">
+                <div class="hero-avatar">
+                    <img src="foto.png" alt="Foto de Borja Monsálvez" onerror="this.style.display='none'; document.getElementById('avatar-fallback').style.display='flex';">
+                    <div id="avatar-fallback" class="avatar-placeholder" style="display:none;">BM</div>
+                </div>
+                <div class="hero-text">
+                    <h1>Borja Monsálvez Pozo</h1>
+                    <p class="subtitle" 
+                       data-es="Ingeniero Mecánico e Industrial Superior" 
+                       data-en="Mechanical & Industrial Engineer">
+                       Mechanical & Industrial Engineer
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+            
+            <!-- EXPERIENCIA LABORAL -->
+            <section class="card">
+                <div class="section-title">
+                    <span class="icon">💼</span>
+                    <h2 data-es="Experiencia Laboral" data-en="Work Experience">Work Experience</h2>
+                </div>
+                <div class="timeline-item">
+                    <div class="item-header">
+                        <div>
+                            <h3 class="role-title" data-es="Ingeniero de Industrialización" data-en="Industrialization Engineer">Industrialization Engineer</h3>
+                            <h4 class="company-name"><a href="https://www.resrgautomotive.com/" target="_blank" rel="noopener">RESRG Automotive</a></h4>
+                        </div>
+                        <span class="period-tag">2023 — 2025</span>
+                    </div>
+                    <p class="item-summary"
+                       data-es="Responsable del diseño y la puesta en marcha de procesos y equipos de montaje para nuevos proyectos en plantas de la UE. Incluyendo la ingeniería de valor, el diseño de procesos, la adquisición, la puesta en servicio y el análisis financiero."
+                       data-en="Responsible for the design and commissioning of assembly processes and equipment for new projects across EU plants. Including value engineering, process design, procurement, commissioning, and financial analysis.">
+                        Responsible for the design and commissioning of assembly processes and equipment for new projects across EU plants. Including value engineering, process design, procurement, commissioning, and financial analysis.
+                    </p>
+                </div>
+            </section>
+
+            <!-- PROYECTOS REALIZADOS -->
+            <section class="card">
+                <div class="section-title">
+                    <span class="icon">⚙️</span>
+                    <h2 data-es="Proyectos Industriales Destacados" data-en="Featured Industrial Projects">Featured Industrial Projects</h2>
+                </div>
+
+                <!-- Proyecto 1 -->
+                <article class="project-box">
+                    <div class="project-header">
+                        <h3 data-es="Škoda Kodiaq — Door Panel | Moldura de Puerta" 
+                            data-en="Škoda Kodiaq — Door Panel">
+                            Škoda Kodiaq — Door Panel
+                        </h3>
+                    </div>
+                    <p class="project-desc"
+                       data-es="Para este proyecto realicé la cotización, diseño, gestión y puesta en marcha de todas las máquinas descritas a continuación para la fabricación de las 4 molduras de puerta (door panel)."
+                       data-en="For this project, I handled the quotation, design, project management, and commissioning of all the machinery described below for the manufacturing of the 4 door panels.">
+                        For this project, I handled the quotation, design, project management, and commissioning of all the machinery described below for the manufacturing of the 4 door panels.
+                    </p>
+                    <h4 class="subheading" data-es="Equipamiento e instalaciones integradas:" data-en="Integrated equipment and systems:">Integrated equipment and systems:</h4>
+                    <ul class="styled-list">
+                        <li data-es="Máquina de ensamblaje de clips semi-automática." data-en="Semi-automated clip assembly machine.">Semi-automated clip assembly machine.</li>
+                        <li data-es="Puestos de trabajo con utillajes para el montaje de componentes de forma manual." data-en="Manual assembly stations equipped with ergonomic tooling.">Manual assembly stations equipped with ergonomic tooling.</li>
+                        <li data-es="Estaciones automáticas de adhesivado de cinta 3M mediante robots y desbobinadores." data-en="Robotic automated 3M tape dispensing and application stations.">Robotic automated 3M tape dispensing and application stations.</li>
+                        <li data-es="Máquina de prensado para unir piel e inserto." data-en="Pressing machinery for joining skin and insert components.">Pressing machinery for joining skin and insert components.</li>
+                        <li data-es="Máquina de inspección (End of Line, EOL) por visión artificial." data-en="Computer vision End of Line (EOL) inspection station.">Computer vision End of Line (EOL) inspection station.</li>
+                    </ul>
+                </article>
+
+                <!-- Proyecto 2 -->
+                <article class="project-box">
+                    <div class="project-header">
+                        <h3 data-es="Audi A3 Eléctrico — Front Grille & Cover | Panel Frontal y Tapa del Gancho"
+                            data-en="Audi A3 Electric — Front Grille & Cover">
+                            Audi A3 Electric — Front Grille & Cover
+                        </h3>
+                    </div>
+                    <p class="project-desc"
+                       data-es="Para este proyecto realicé la cotización, diseño, gestión y puesta en marcha de todas las máquinas descritas a continuación para la fabricación del panel frontal y cover. Ambos son piezas compuestas por PC-ABS + Film decorativo + PUR."
+                       data-en="For this project, I handled the quotation, design, project management, and commissioning of all the machinery described below for the manufacturing of the front panel and cover. Both parts are multi-material components made of PC-ABS + Decorative Film + PUR.">
+                        For this project, I handled the quotation, design, project management, and commissioning of all the machinery described below for the manufacturing of the front panel and cover. Both parts are multi-material components made of PC-ABS + Decorative Film + PUR.
+                    </p>
+                    <h4 class="subheading" data-es="Maquinaria y automatización desarrollada:" data-en="Developed machinery and automation:">Developed machinery and automation:</h4>
+                    <ul class="styled-list">
+                        <li data-es="Mesa rotativa y calefactada para el acondicionamiento del film termoconformado." data-en="Heated rotary indexing table for thermoformed film conditioning.">Heated rotary indexing table for thermoformed film conditioning.</li>
+                        <li data-es="Estación robotizada para manipulación, inserción y colocación del film en la cavidad del molde (limpieza previa, manipulación con EOAT calefactada, extracción de pieza terminada y cerramiento clasificado para sala blanca)." data-en="Robotic cell for film insertion into mold cavities (pre-cleaning, heated EOAT handling, finished part extraction, cleanroom classification).">Robotic cell for film insertion into mold cavities (pre-cleaning, heated EOAT handling, finished part extraction, cleanroom classification).</li>
+                        <li data-es="Máquina de corte láser con rotación de pieza automática." data-en="Laser cutting machine with automated multi-axis part rotation.">Laser cutting machine with automated multi-axis part rotation.</li>
+                        <li data-es="Máquina de troquelado por ultrasonidos, prensado de brackets y control EOL." data-en="Ultrasonic trimming, bracket pressing, and EOL inspection station.">Ultrasonic trimming, bracket pressing, and EOL inspection station.</li>
+                        <li data-es="Máquina de inspección (End of Line, EOL) por visión artificial para alineamiento y tolerancias del film." data-en="Computer vision EOL station for film alignment and dimensional tolerances.">Computer vision EOL station for film alignment and dimensional tolerances.</li>
+                        <li data-es="Máquina de prensado semi-automático para unir adhesivos 3M pre-troquelados con los brackets." data-en="Semi-automated press machine for pre-cut 3M adhesive application onto brackets.">Semi-automated press machine for pre-cut 3M adhesive application onto brackets.</li>
+                    </ul>
+                </article>
+
+                <!-- Proyecto 3 -->
+                <article class="project-box">
+                    <div class="project-header">
+                        <h3 data-es="Mercedes-Benz — Emblema de Camión" data-en="Mercedes-Benz — Truck Emblem">Mercedes-Benz — Truck Emblem</h3>
+                    </div>
+                    <p class="project-desc" data-es="Diseño de máquina de corte." data-en="Cutting machine design.">
+                        Cutting machine design.
+                    </p>
+                </article>
+            </section>
+
+            <!-- ESTUDIOS -->
+            <section class="card">
+                <div class="section-title">
+                    <span class="icon">🎓</span>
+                    <h2 data-es="Estudios" data-en="Education">Education</h2>
+                </div>
+                
+                <div class="study-item">
+                    <div class="item-header">
+                        <h3 class="role-title" data-es="Máster en Ingeniería Industrial Superior" data-en="Master's Degree in Industrial Engineering">Master's Degree in Industrial Engineering</h3>
+                        <span class="period-tag">2021 — 2023</span>
+                    </div>
+                    <p class="institution">Universidad Politècnica de Valencia</p>
+                    <ul class="styled-list" style="margin-top: 0.5rem;">
+                        <li data-es="Trabajo final de Máster (TFM) sobre el desarrollo e implementación de un sistema de gestión de energía basado en inteligencia artificial para redes eléctricas con almacenamiento energético (2025–2026)."
+                            data-en="Master's Thesis (TFM) on the development and implementation of an AI-based energy management system for microgrids with storage (2025–2026).">
+                            Master's Thesis (<a href="https://riunet.upv.es/entities/publication/d14427ee-89bc-4ada-b283-ac54be4ce7c5" target="_blank" rel="noopener">TFM</a>) on the development and implementation of an AI-based energy management system for microgrids with storage (2025–2026).
+                        </li>
+                        <li data-es="Publicación científica: Artículo en Jornadas de Automática (CEA) derivado del proyecto del TFM."
+                            data-en="Scientific publication: Paper presented at Jornadas de Automática (CEA) derived from the Master's project.">
+                            Scientific publication: <a href="https://revistas.udc.es/index.php/JA_CEA/article/view/13768" target="_blank" rel="noopener">Paper presented at Jornadas de Automática (CEA)</a> derived from the Master's project.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="study-item">
+                    <div class="item-header">
+                        <h3 class="role-title" data-es="Grado en Ingeniería Mecánica" data-en="Bachelor's Degree in Mechanical Engineering">Bachelor's Degree in Mechanical Engineering</h3>
+                        <span class="period-tag">2019 — 2021</span>
+                    </div>
+                    <p class="institution">Universidad Politècnica de Valencia</p>
+                    <ul class="styled-list" style="margin-top: 0.5rem;">
+                        <li data-es="Especialización en Diseño de Máquinas." data-en="Major in Machine Design.">Major in Machine Design.</li>
+                        <li data-es="Trabajo final de Grado (TFG) sobre el análisis numérico de un casco de protección fabricado de material compuesto frente a impacto de baja velocidad considerando parámetros anatómicos."
+                            data-en="Bachelor's Thesis (TFG) on the numerical FEA analysis of a composite protective helmet under low-velocity impact incorporating anatomical parameters.">
+                            Bachelor's Thesis (<a href="https://riunet.upv.es/entities/publication/9e20bb90-133f-4a86-86b3-ca3ea8c7c636" target="_blank" rel="noopener">TFG</a>) on the numerical FEA analysis of a composite protective helmet under low-velocity impact incorporating anatomical parameters.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="study-item">
+                    <div class="item-header">
+                        <h3 class="role-title" data-es="Grado en Ingeniería Mecánica" data-en="Bachelor's Degree in Mechanical Engineering">Bachelor's Degree in Mechanical Engineering</h3>
+                        <span class="period-tag">2017 — 2019</span>
+                    </div>
+                    <p class="institution">Universidad Jaume I de Castellón</p>
+                </div>
+            </section>
+
+            <!-- TRES COLUMNAS: PROGRAMAS, INTERESES Y SECTORES -->
+            <div class="grid-three-columns">
+                <!-- Columna 1 -->
+                <section class="card">
+                    <div class="section-title">
+                        <span class="icon">🛠️</span>
+                        <h2 data-es="Programas" data-en="Software & Tools">Software & Tools</h2>
+                    </div>
+                    <div class="pills-container">
+                        <span class="pill">SolidWorks</span>
+                        <span class="pill">AutoCAD</span>
+                        <span class="pill">Fusion 360</span>
+                        <span class="pill">Ansys</span>
+                        <span class="pill">Python</span>
+                        <span class="pill">Matlab</span>
+                        <span class="pill">C++</span>
+                        <span class="pill">Power BI</span>
+                        <span class="pill">Microsoft Excel</span>
+                    </div>
+                </section>
+
+                <!-- Columna 2 -->
+                <section class="card">
+                    <div class="section-title">
+                        <span class="icon">💡</span>
+                        <h2 data-es="Intereses" data-en="Interests">Interests</h2>
+                    </div>
+                    <div class="pills-container">
+                        <span class="pill" data-es="Transición energética" data-en="Energy Transition">Energy Transition</span>
+                        <span class="pill" data-es="Inteligencia artificial aplicada a la ingeniería" data-en="Applied AI in Engineering">Applied AI in Engineering</span>
+                        <span class="pill" data-es="Domótica" data-en="Home Automation">Home Automation</span>
+                        <span class="pill" data-es="Robótica" data-en="Robotics">Robotics</span>
+                        <span class="pill" data-es="Diseño de máquinas" data-en="Machine Design">Machine Design</span>
+                    </div>
+                </section>
+
+                <!-- Columna 3 -->
+                <section class="card">
+                    <div class="section-title">
+                        <span class="icon">🌐</span>
+                        <h2 data-es="Sectores de Interés" data-en="Target Sectors">Target Sectors</h2>
+                    </div>
+                    <div class="pills-container">
+                        <span class="pill pill-accent" data-es="Energías renovables" data-en="Renewable Energy">Renewable Energy</span>
+                        <span class="pill pill-accent" data-es="Aeronáutica" data-en="Aerospace">Aerospace</span>
+                        <span class="pill pill-accent" data-es="Sector salud" data-en="Healthcare / Medical">Healthcare / Medical</span>
+                        <span class="pill pill-accent" data-es="Electrificación" data-en="Electrification">Electrification</span>
+                        <span class="pill pill-accent" data-es="Robótica" data-en="Robotics">Robotics</span>
+                    </div>
+                </section>
+            </div>
+
+        </main>
+
+        <footer>
+            <p data-es="© Borja Monsálvez Pozo · Portfolio Profesional" data-en="© Borja Monsálvez Pozo · Professional Portfolio">© Borja Monsálvez Pozo · Professional Portfolio</p>
+        </footer>
+    </div>
+
+    <!-- SCRIPT CAMBIO DE IDIOMA -->
+    <script>
+        function setLanguage(lang) {
+            document.querySelectorAll('[data-' + lang + ']').forEach(el => {
+                const text = el.getAttribute('data-' + lang);
+                const anchor = el.querySelector('a');
+                if (anchor) {
+                    const href = anchor.getAttribute('href');
+                    if (el.dataset[lang].includes('(') && el.dataset[lang].includes(')')) {
+                        el.innerHTML = el.dataset[lang].replace(/(TFM|TFG|Artículo en Jornadas de Automática \(CEA\)|Paper presented at Jornadas de Automática \(CEA\))/g, 
+                            `<a href="${href}" target="_blank" rel="noopener">$1</a>`);
+                    }
+                } else {
+                    el.innerText = text;
+                }
+            });
+
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.innerText.toLowerCase() === lang);
+            });
+            document.documentElement.lang = lang;
+        }
+
+        // Cargar en inglés por defecto
+        document.addEventListener('DOMContentLoaded', () => {
+            setLanguage('en');
+        });
+    </script>
+</body>
+</html>
