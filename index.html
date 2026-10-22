@@ -10,6 +10,8 @@
     <meta property="og:description" content="Ingeniero Mecánico e Industrial con experiencia en industrialización y automoción.">
     <meta property="og:type" content="website">
 
+    <link rel="icon" type="image/png" href="favicon.png">
+    
     <link rel="stylesheet" href="style.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +34,7 @@
         <header class="hero">
             <div class="hero-container">
                 <div class="hero-avatar">
-                    <img src="foto.png" alt="Foto de Borja Monsálvez" onerror="this.style.display='none'; document.getElementById('avatar-fallback').style.display='flex';">
+                    <img src="foto.jpg" alt="Foto de Borja Monsálvez" onerror="this.style.display='none'; document.getElementById('avatar-fallback').style.display='flex';">
                     <div id="avatar-fallback" class="avatar-placeholder" style="display:none;">BM</div>
                 </div>
                 <div class="hero-text">
@@ -71,7 +73,7 @@
                 </div>
             </section>
 
-            <!-- PROYECTOS REALIZADOS -->
+            <!-- PROYECTOS INDUSTRIALES REALIZADOS -->
             <section class="card">
                 <div class="section-title">
                     <span class="icon">⚙️</span>
@@ -136,11 +138,11 @@
                 </article>
             </section>
 
-            <!-- ESTUDIOS -->
+            <!-- ESTUDIOS Y FORMACIÓN COMPLEMENTARIA -->
             <section class="card">
                 <div class="section-title">
                     <span class="icon">🎓</span>
-                    <h2 data-es="Estudios" data-en="Education">Education</h2>
+                    <h2 data-es="Estudios y Formación" data-en="Education & Training">Education & Training</h2>
                 </div>
                 
                 <div class="study-item">
@@ -183,6 +185,117 @@
                     </div>
                     <p class="institution">Universidad Jaume I de Castellón</p>
                 </div>
+
+                <!-- Especialización de Andrew Ng integrada con la misma clase study-item -->
+                <div class="study-item">
+                    <div class="item-header">
+                        <h3 class="role-title" 
+                            data-es="Especialización en Deep Learning (4 Cursos)" 
+                            data-en="Deep Learning Specialization (4 Courses)">
+                            Deep Learning Specialization (4 Courses)
+                        </h3>
+                        <span class="period-tag">DeepLearning.AI</span>
+                    </div>
+                    <p class="institution">Andrew Ng</p>
+                    <ul class="styled-list" style="margin-top: 0.5rem;">
+                        <li data-es="Formación completada en Redes Neuronales y Aprendizaje Profundo, Mejora de Redes Profundas (Ajuste de Hiperparámetros, Regularización y Optimización), Estructuración de Proyectos de Machine Learning, Redes Neuronales Convolucionales (CNN)."
+                            data-en="Completed training covering Neural Networks and Deep Learning, Improving Deep Neural Networks (Hyperparameter Tuning, Regularization and Optimization), Structuring Machine Learning Projects, Convolutional Neural Networks (CNNs).">
+                            Completed training covering Neural Networks and Deep Learning, Improving Deep Neural Networks (Hyperparameter Tuning, Regularization and Optimization), Structuring Machine Learning Projects, Convolutional Neural Networks (CNNs).
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- PROYECTOS PERSONALES E INTERESES TÉCNICOS (Con las clases exactas de tu CSS) -->
+            <section class="card">
+                <div class="section-title">
+                    <span class="icon">🚀</span>
+                    <h2 data-es="Proyectos Personales e Intereses Técnicos" data-en="Personal Projects & Technical Interests">Personal Projects & Technical Interests</h2>
+                </div>
+
+                <!-- 1. FINZA -->
+                <article class="project-box">
+                    <div class="project-header">
+                        <h3 data-es="Finza — Diseño de Aplicación de Finanzas Personales, Presupuestos e Inversión"
+                            data-en="Finza — Personal Finance, Budgeting & Investment Tracking Application">
+                            Finza — Personal Finance, Budgeting & Investment Tracking Application
+                        </h3>
+                    </div>
+                    <p class="project-desc"
+                       data-es="Diseño funcional de una herramienta propia con interfaz web y base de datos alojada en mi servidor local para organizar finanzas personales, presupuestos e inversiones de forma privada."
+                       data-en="Functional design of a custom web-accessible tool and database hosted on my local server to organize personal finances, budgets, and investments privately.">
+                        Functional design of a custom web-accessible tool and database hosted on my local server to organize personal finances, budgets, and investments privately.
+                    </p>
+                    <h4 class="subheading" data-es="Funcionalidades principales diseñadas:" data-en="Key designed features:">Key designed features:</h4>
+                    <ul class="styled-list">
+                        <li data-es="Panel mensual de patrimonio neto, tasa de ahorro, metas financieras y control de presupuestos por categorías en tiempo real."
+                            data-en="Monthly dashboard tracking net worth, savings rate, financial goals, and real-time category budgets.">
+                            Monthly dashboard tracking net worth, savings rate, financial goals, and real-time category budgets.
+                        </li>
+                        <li data-es="Importación inteligente de extractos bancarios (Excel/CSV) con reglas de autocategorización y detección de duplicados."
+                            data-en="Smart bank statement import (Excel/CSV) with rule-based categorization and duplicate detection.">
+                            Smart bank statement import (Excel/CSV) with rule-based categorization and duplicate detection.
+                        </li>
+                        <li data-es="Seguimiento de cartera de inversión en directo (fondos indexados, ETFs y acciones por ISIN/Ticker) con cálculo de rentabilidad, rebalanceo y calculadora de independencia financiera (FIRE)."
+                            data-en="Live investment portfolio tracking (index funds, ETFs, and stocks by ISIN/Ticker) with automatic returns calculation, rebalancing helper, and FIRE calculator.">
+                            Live investment portfolio tracking (index funds, ETFs, and stocks by ISIN/Ticker) with automatic returns calculation, rebalancing helper, and FIRE calculator.
+                        </li>
+                        <li data-es="Automatización del registro de gastos al instante desde el móvil y conexión con un Bot de Telegram interactivo para recibir alertas, dividir gastos compartidos entre amigos y cuadrar pagos recibidos por Bizum."
+                            data-en="Automated instant expense logging from mobile notifications connected to an interactive Telegram Bot for spending alerts, splitting shared group expenses, and reconciling incoming Bizum transfers.">
+                            Automated instant expense logging from mobile notifications connected to an interactive Telegram Bot for spending alerts, splitting shared group expenses, and reconciling incoming Bizum transfers.
+                        </li>
+                    </ul>
+                </article>
+
+                <!-- 2. HOMELAB -->
+                <article class="project-box">
+                    <div class="project-header">
+                        <h3 data-es="Servidor Doméstico (Homelab), Domótica y Monitorización de Datos"
+                            data-en="Home Server (Homelab), Home Automation & Data Monitoring">
+                            Home Server (Homelab), Home Automation & Data Monitoring
+                        </h3>
+                    </div>
+                    <p class="project-desc"
+                       data-es="Configuración y mantenimiento en mi tiempo libre de un servidor local con Proxmox y Docker para experimentar con domótica, visualización de datos y servicios propios."
+                       data-en="Setup and maintenance in my spare time of a local server running Proxmox and Docker to experiment with home automation, data visualization, and self-hosted services.">
+                        Setup and maintenance in my spare time of a local server running Proxmox and Docker to experiment with home automation, data visualization, and self-hosted services.
+                    </p>
+                    <ul class="styled-list">
+                        <li data-es="Automatización del hogar y control mediante flujos lógicos con Home Assistant y Node-RED."
+                            data-en="Smart home automation and logic workflows using Home Assistant and Node-RED.">
+                            Smart home automation and logic workflows using Home Assistant and Node-RED.
+                        </li>
+                        <li data-es="Paneles de visualización de datos históricos y consumos energéticos con InfluxDB y Grafana."
+                            data-en="Historical data and energy consumption dashboards powered by InfluxDB and Grafana.">
+                            Historical data and energy consumption dashboards powered by InfluxDB and Grafana.
+                        </li>
+                        <li data-es="Gestión local de cámaras con detección de objetos (Frigate), nube privada (Nextcloud) y servicios multimedia automatizados."
+                            data-en="Local camera management with object detection (Frigate), private cloud storage (Nextcloud), and automated media services.">
+                            Local camera management with object detection (Frigate), private cloud storage (Nextcloud), and automated media services.
+                        </li>
+                    </ul>
+                </article>
+
+                <!-- 3. IMPRESIÓN 3D Y MICROCONTROLADORES -->
+                <article class="project-box">
+                    <div class="project-header">
+                        <h3 data-es="Fabricación Aditiva (Impresión 3D) y Microcontroladores"
+                            data-en="Additive Manufacturing (3D Printing) & Microcontrollers">
+                            Additive Manufacturing (3D Printing) & Microcontrollers
+                        </h3>
+                    </div>
+                    <p class="project-desc"
+                       data-es="Diseño mecánico práctico, impresión 3D y electrónica básica en mi tiempo libre."
+                       data-en="Hands-on mechanical design, 3D printing, and basic electronics in my spare time.">
+                        Hands-on mechanical design, 3D printing, and basic electronics in my spare time.
+                    </p>
+                    <ul class="styled-list">
+                        <li data-es="Diseño en CAD 3D de piezas funcionales y repuestos mecánicos, ajuste y calibración de impresora 3D FDM y realización de pequeños proyectos caseros de electrónica con Arduino."
+                            data-en="3D CAD modeling of functional parts and mechanical replacements, tuning and calibration of an FDM 3D printer, and small DIY home electronics projects using Arduino.">
+                            3D CAD modeling of functional parts and mechanical replacements, tuning and calibration of an FDM 3D printer, and small DIY home electronics projects using Arduino.
+                        </li>
+                    </ul>
+                </article>
             </section>
 
             <!-- TRES COLUMNAS: PROGRAMAS, INTERESES Y SECTORES -->
@@ -191,18 +304,19 @@
                 <section class="card">
                     <div class="section-title">
                         <span class="icon">🛠️</span>
-                        <h2 data-es="Programas" data-en="Software & Tools">Software & Tools</h2>
+                        <h2 data-es="Programas y Herramientas" data-en="Software & Tools">Software & Tools</h2>
                     </div>
                     <div class="pills-container">
                         <span class="pill">SolidWorks</span>
-                        <span class="pill">AutoCAD</span>
                         <span class="pill">Fusion 360</span>
-                        <span class="pill">Ansys</span>
+                        <span class="pill">AutoCAD</span>
+                        <span class="pill">Ansys (FEA)</span>
+                        <span class="pill">MATLAB</span>
                         <span class="pill">Python</span>
-                        <span class="pill">Matlab</span>
-                        <span class="pill">C++</span>
+                        <span class="pill">CODESYS / TIA Portal</span>
+                        <span class="pill">C/C++ (Arduino)</span>
                         <span class="pill">Power BI</span>
-                        <span class="pill">Microsoft Excel</span>
+                        <span class="pill">Proxmox / Docker</span>
                     </div>
                 </section>
 
@@ -214,9 +328,9 @@
                     </div>
                     <div class="pills-container">
                         <span class="pill" data-es="Transición energética" data-en="Energy Transition">Energy Transition</span>
-                        <span class="pill" data-es="Inteligencia artificial aplicada a la ingeniería" data-en="Applied AI in Engineering">Applied AI in Engineering</span>
-                        <span class="pill" data-es="Domótica" data-en="Home Automation">Home Automation</span>
-                        <span class="pill" data-es="Robótica" data-en="Robotics">Robotics</span>
+                        <span class="pill" data-es="IA aplicada a la ingeniería" data-en="Applied AI in Engineering">Applied AI in Engineering</span>
+                        <span class="pill" data-es="Domótica y Homelab" data-en="Home Automation & Homelab">Home Automation & Homelab</span>
+                        <span class="pill" data-es="Impresión 3D" data-en="3D Printing">3D Printing</span>
                         <span class="pill" data-es="Diseño de máquinas" data-en="Machine Design">Machine Design</span>
                     </div>
                 </section>
@@ -230,9 +344,9 @@
                     <div class="pills-container">
                         <span class="pill pill-accent" data-es="Energías renovables" data-en="Renewable Energy">Renewable Energy</span>
                         <span class="pill pill-accent" data-es="Aeronáutica" data-en="Aerospace">Aerospace</span>
-                        <span class="pill pill-accent" data-es="Sector salud" data-en="Healthcare / Medical">Healthcare / Medical</span>
+                        <span class="pill pill-accent" data-es="Sector salud / Biomecánica" data-en="Healthcare / Biomechanics">Healthcare / Biomechanics</span>
                         <span class="pill pill-accent" data-es="Electrificación" data-en="Electrification">Electrification</span>
-                        <span class="pill pill-accent" data-es="Robótica" data-en="Robotics">Robotics</span>
+                        <span class="pill pill-accent" data-es="Robótica y Automatización" data-en="Robotics & Automation">Robotics & Automation</span>
                     </div>
                 </section>
             </div>
